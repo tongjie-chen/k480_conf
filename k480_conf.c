@@ -143,7 +143,7 @@ int main(int argc, char **argv)
 	char devPath [30];
 
 	/* TODO: get real device count? */
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 20; i++) {
 		printf("\n Trying device %d\n\n", i);
 		snprintf(devPath, 30, "/dev/hidraw%d", i);
 		dev = devPath;
